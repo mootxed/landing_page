@@ -23,7 +23,7 @@ a {
 }
 
 .navigation {
-    padding:16px 112px;
+    padding:16px 200px;
     display: flex;
     justify-content:space-between;
     background-color: #1F2937;
@@ -37,4 +37,46 @@ a {
 }
 
 /* header */
+
+.header {
+    padding: 64px 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.hero_main_text {
+    margin: 0;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero_second_text {
+    margin: 12px 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* .header_text {
+    padding-right: 64px;
+} */
+
+.img {
+    padding: 80px 304px;
+    margin-left: 150px;
+    background-color: gray;
+    flex: 1;
+}
+
+.button {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 6px;
+    padding: 8px 28px;
+    border: none;
+    outline: none;
+}
 
