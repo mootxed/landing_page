@@ -58,9 +58,9 @@ a {
     color: #E5E7EB;
 }
 
-/* .header_text {
+.header_text {
     padding-right: 64px;
-} */
+}
 
 .img {
     padding: 80px 304px;
@@ -106,4 +106,26 @@ a {
 .img-text {
     color: rgb(44, 44, 44);
     margin: 0px 40px;
+}
+
+/* article */
+
+.quotation {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 36px 260px;
+}
+
+.quotation-text {
+    font-family: "light italic";
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.quotation-author {
+    text-align: end;
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: bold;
 }
