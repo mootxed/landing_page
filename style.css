@@ -120,6 +120,7 @@ a {
 .quotation-text {
     font-family: "light italic";
     color: #1F2937;
+    font-style: italic;
     font-size: 36px;
 }
 
@@ -127,5 +128,30 @@ a {
     text-align: end;
     color: #1F2937;
     font-size: 18px;
+    font-weight: bold;
+}
+
+/* section */
+
+.container-singUp {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 60px;
+    margin: 120px 200px;
+    background-color: #3882F6;
+    border-radius: 12px; 
+    align-items: center
+}
+
+.container-singUp-text {
+    color: #F9FAF8;
+}
+
+.container-singUp-button {
+    border: 3px solid #F9FAF8;
+    border-radius: 9px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 6px 24px;
     font-weight: bold;
 }
