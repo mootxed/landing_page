@@ -155,3 +155,16 @@ a {
     padding: 6px 24px;
     font-weight: bold;
 }
+
+/* footer */
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 18px 0px;
+}
+
+footer p {
+    color: #E5E7EB;
+}
